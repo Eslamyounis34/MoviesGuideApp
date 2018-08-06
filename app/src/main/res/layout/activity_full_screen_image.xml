@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.eslamypunis.nvdrawer.FullScreenImage">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullscreenImage"
+        />
+    <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabMenu="@menu/fabmenudownload"
+        android:id="@+id/fabdownload"
+        android:layout_gravity="bottom|end"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:fabGravity="bottom_end"
+        app:fabBackgroundTint="#00695c"
+        app:fabDrawableTint="#fff"
+        app:miniFabTitleTextColor="?attr/colorPrimaryDark"></io.github.yavski.fabspeeddial.FabSpeedDial>
+
+</RelativeLayout>

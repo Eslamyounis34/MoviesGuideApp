@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/moviepopular"
+            android:title="Popular" />
+        <item
+            android:id="@+id/nav_now_playing"
+            android:icon="@drawable/movienowplaying"
+            android:title="Now Playing" />
+        <item
+            android:id="@+id/nav_top_rated"
+            android:icon="@drawable/movietoprated"
+            android:title="Top Rated" />
+    </group>
+
+
+    <item android:title=""
+        >
+        <menu>
+    <item
+            android:id="@+id/Booking"
+            android:icon="@drawable/bookingicon"
+            android:title="Book a movie" />
+        <item
+            android:id="@+id/favourites"
+            android:icon="@drawable/favouriteicon"
+            android:title="Favourites" />
+        </menu>
+    </item>
+
+</menu>

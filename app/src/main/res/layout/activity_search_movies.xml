@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e5e5e5"
+    android:layout_height="match_parent"
+    tools:context="com.example.eslamypunis.nvdrawer.SearchMovies">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00695C"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:layout_gravity="center_horizontal"
+        app:titleTextColor="#fff"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolsearch"></android.support.v7.widget.Toolbar>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolsearch"
+        android:layout_marginTop="10dp"
+        android:id="@+id/search_list"></ListView>
+
+</RelativeLayout>

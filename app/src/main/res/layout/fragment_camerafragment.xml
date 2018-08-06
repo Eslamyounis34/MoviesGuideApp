@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eslamypunis.nvdrawer.camerafragment">
+
+
+   <GridView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/firstFG"
+       android:numColumns="2"
+       android:columnWidth="200dp"
+       android:stretchMode="columnWidth"
+       android:gravity="center"></GridView>
+</LinearLayout>
